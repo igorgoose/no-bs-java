@@ -17,5 +17,21 @@
    .gitignore file with all IDE-specific files to the root of your project). You can use .gitignore 
    generators(or just copy from here https://www.toptal.com/developers/gitignore/api/java,maven,intellij+iml) 
    
+   Stage all files:
+   
+        git add .
+   
+   Commit the staged files:
+   
+        git commit -m "Your commit message"
+   
+   Push current branch (for pushing branch for the first time):
+        
+        git push --set-upstream origin dev
+
+   Push current branch (for pushing branch later):
+
+        git push
+   
 5. Create a pull request from 'dev' to 'master' branch and assign review to [me](https://github.com/igorgoose).
    You will perform steps 4 and 5 after completing each task.
