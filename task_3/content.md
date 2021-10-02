@@ -153,7 +153,7 @@ JDBC - Java Database Connectivity. Представляет собой API дл�
    
     Итак, действуем по аналогии. Но так как параметр в запросе мы не знаем, нам нужно вставлять его вручную.
    ```java
-    List<Person> getPeopleOlderThan(String name){
+    List<Person> getPeopleByName(String name){
         try (Connection connection = DriverManager.getConnection(dbURL, dbProperties);
                 Statement statement = connection.createStatement()) {
             String queryString = "select * from people where name = '" + name + "'";
@@ -174,7 +174,7 @@ JDBC - Java Database Connectivity. Представляет собой API дл�
    Так будет выглядеть наш метод при использовании `PreparedStatement`:
    
     ```java
-    List<Person> getPeopleOlderThan(String name){
+    List<Person> getPeopleByName(String name){
         String queryString = "select * from people where name = ?"; // ? там где нужно вставить параметр
         try (Connection connection = DriverManager.getConnection(dbURL, dbProperties);
                 PreparedStatement preparedStatement = connection.prepareStatement(queryString)) {
