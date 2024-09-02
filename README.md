@@ -1,1 +1,1 @@
-# pozhiloy-web
+# no bs java
