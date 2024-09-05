@@ -34,7 +34,7 @@ while installing it.
 
 - Add ssh access to your github account
   - Go to your user's home directory
-  - Check if there's a folder `.ssh` and if there are any files like 'id_rsa' and `id_rsa.pub` or similar 
+  - Check if there's a folder `.ssh` and if there are any files like `id_rsa` and `id_rsa.pub` or similar 
 inside the folder.
   - If there aren't, then generate an ssh key:
     - Run `ssh-keygen` in your terminal
