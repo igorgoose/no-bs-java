@@ -55,9 +55,9 @@ in the key text field
   - Give it a name like `my-first-repo`
   - Choose `Add a README file` checkbox
   - Press `Create repository`. 
-  > Congrats!:tada: You've created your first repository. This is where the shared code is stored
+  > Congrats! :tada: You've created your first repository. This is where the shared code is stored
   - Press the green `Code` button. Choose `SSH`, and copy the provided line.
   - Now open terminal in the folder you'd like to store your projects in
   - Run `git clone <the line you copied>`.
   - If everything is done right you should be able to see a new folder names the same as the github repository
-  > Congrats!:tada: Now you have a local copy of your repo that's attached to the remote repository on github.
+  > Congrats! :tada: Now you have a local copy of your repo that's attached to the remote repository on github.
